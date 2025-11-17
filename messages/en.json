@@ -1,0 +1,50 @@
+{
+  "Navbar": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "resume": " Resume"
+  },
+  "Hero": {
+    "badge": "Available for new opportunities",
+    "greeting": "Hi, I'm Amirreza Mahmoudi",
+    "title": "Front End Developer",
+    "description": "I craft beautiful, responsive, and user-friendly web experiences with modern technologies. Passionate about clean code, intuitive design, and bringing ideas to life through the web.",
+    "viewWork": "View My Work",
+    "getInTouch": "Get In Touch",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  },
+  "About": {
+    "sectionHeader": "About Me",
+    "subtitle": "Passionate front-end developer dedicated to creating exceptional digital experiences",
+    "whoIAmHeader": "Who I Am",
+    "paragraph1": "I am a front-end developer with a passion for building beautiful, performant web applications. With expertise in modern JavaScript frameworks and a keen eye for design, I bridge the gap between aesthetics and functionality.",
+    "paragraph2": "My approach combines technical excellence with user-centered design principles, ensuring every project not only looks great but delivers an exceptional user experience.",
+    "paragraph3": "When I am not coding, you will find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community."
+  },
+  "Skill": {
+    "header": "What I Do",
+    "cleanCodeTitle": "Clean Code",
+    "cleanCodeDescription": "Writing maintainable, scalable solutions",
+    "performanceTitle": "Performance",
+    "performanceDescription": "Optimized for speed and efficiency",
+    "modernStackTitle": "Modern Stack",
+    "modernStackDescription": "Latest tools and frameworks",
+    "userFocusTitle": "User Focus",
+    "userFocusDescription": "Intuitive, accessible interfaces"
+  },
+  "Timeline": {
+    "header": "Experience",
+    "seniorTitle": "Senior Front-End Developer",
+    "seniorTime": "2022 - Present",
+    "seniorCompany": "Abarpardazesh Asia",
+    "seniorDescription": "Developed Copysa, a PWA later converted into a TWA, allowing users to upload and print documents at designated print stations.",
+    "seniorDescription2": "Built a PDU Monitoring Dashboard using WebSockets for real-time system data visualization and monitoring.",
+    "developerTitle": "Front-End Developer",
+    "developerTime": "2022 - Present",
+    "developerCompany": "Freelance",
+    "developerDescription": "Improved LMS platforms by fixing bugs, adding features, and refining UI components."
+  }
+}

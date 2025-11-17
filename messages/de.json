@@ -1,0 +1,50 @@
+{
+  "Navbar": {
+    "about": "Über mich",
+    "projects": "Projekte",
+    "contact": "Kontakt",
+    "resume": "Lebenslauf "
+  },
+  "Hero": {
+    "badge": "Verfügbar für neue Möglichkeiten",
+    "greeting": "Hallo, ich bin Amirreza Mahmoudi",
+    "title": "Frontend-Entwickler",
+    "description": "Ich gestalte schöne, responsive und benutzerfreundliche Weberfahrungen mit modernen Technologien. Leidenschaftlich für sauberen Code, intuitives Design und das Umsetzen von Ideen im Web.",
+    "viewWork": "Meine Arbeit ansehen",
+    "getInTouch": "Kontakt aufnehmen",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "E-Mail"
+  },
+  "About": {
+    "sectionHeader": "Über mich",
+    "subtitle": "Leidenschaftlicher Frontend-Entwickler, der sich der Schaffung außergewöhnlicher digitaler Erlebnisse widmet",
+    "whoIAmHeader": "Wer ich bin",
+    "paragraph1": "Ich bin Front-End-Entwickler mit einer Leidenschaft dafür, schöne, performante Web-Anwendungen zu bauen. Mit Expertise in Next.js und React verbindet mein Ansatz technische Exzellenz mit benutzerzentrierten Designprinzipien und stellt sicher, dass jedes Projekt nicht nur toll aussieht, sondern auch eine außergewöhnliche Benutzererfahrung bietet.",
+    "paragraph2": "Mein Ansatz verbindet technische Exzellenz mit benutzerzentrierten Designprinzipien und stellt sicher, dass jedes Projekt nicht nur toll aussieht, sondern auch eine außergewöhnliche Benutzererfahrung bietet.",
+    "paragraph3": "Ich erkunde ständig neue Technologien, trage zu Open-Source-Projekten bei oder teile Wissen mit der Entwickler-Community."
+  },
+  "Skill": {
+    "header": "Was ich tue",
+    "cleanCodeTitle": "Sauberer Code",
+    "cleanCodeDescription": "Schreiben wartbarer, skalierbarer Lösungen",
+    "performanceTitle": "Leistung",
+    "performanceDescription": "Optimiert für Geschwindigkeit und Effizienz",
+    "modernStackTitle": "Moderner Technologie-Stack",
+    "modernStackDescription": "Neueste Werkzeuge und Frameworks",
+    "userFocusTitle": "Nutzerfokus",
+    "userFocusDescription": "Intuitive, barrierefreie Schnittstellen"
+  },
+  "Timeline": {
+    "header": "Erfahrung",
+    "seniorTitle": "Senior Frontend-Entwickler",
+    "seniorTime": "2022 - Heute",
+    "seniorCompany": "Tech Company Inc.",
+    "seniorDescription": "Leitung der Frontend-Entwicklung für Unternehmensanwendungen, Betreuung von Junior-Entwicklern und Implementierung moderner React-Architekturen mit TypeScript und Next.js.",
+    "seniorDescription2": "Entwickelte ein PDU-Monitoring-Dashboard mit WebSockets für die Echtzeit-Visualisierung und Überwachung von Systemdaten.",
+    "developerTitle": "Frontend-Entwickler",
+    "developerTime": "2020 - 2022",
+    "developerCompany": "Digital Agency",
+    "developerDescription": "Entwicklung responsiver Webanwendungen für verschiedene Kunden, mit Fokus auf Performance-Optimierung und moderne UI/UX-Praktiken."
+  }
+}
