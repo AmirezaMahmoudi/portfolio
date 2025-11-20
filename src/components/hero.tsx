@@ -1,9 +1,16 @@
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import {
+  ArrowRight,
+  CircleChevronDown,
+  Github,
+  Linkedin,
+  Mail,
+} from "lucide-react";
 import { Button } from "./ui/button";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 export default function Hero() {
   const t = useTranslations("Hero");
+  const locale = useLocale();
 
   return (
     <main className="h-screen from-foreground via-foreground to-primary/10">
@@ -11,11 +18,12 @@ export default function Hero() {
         <div className="max-w-4xl mx-auto">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance text-foreground">
-                Hi, Im{" "}
+              <h1 className="text-5xl  font-bold tracking-tight text-balance text-foreground">
+                {t("hi")}{" "}
                 <span className="bg-linear-to-r from-primary via-primary to-chart-2 bg-clip-text text-transparent">
-                  Amirreza Mahmoudi
+                  {t("name")}
                 </span>
+                {locale === "fa" && ` ${t("am")}`}
               </h1>
               <p className="text-2xl md:text-3xl text- text-foreground font-medium">
                 {t("title")}
@@ -65,6 +73,9 @@ export default function Hero() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="absolute xs:bottom-10 bottom-16 w-full flex  justify-center items-center animate-bounce">
+        <CircleChevronDown size="32" className=" text-primary" />
       </div>
     </main>
   );

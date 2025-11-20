@@ -3,9 +3,14 @@
     "about": "About",
     "projects": "Projects",
     "contact": "Contact",
+    "experince": "Experince",
     "resume": " Resume"
   },
   "Hero": {
+    "hi":"Hi, I'm",
+    "name":"Amirreza Mahmoudi",
+    "am":"هستم",
+
     "badge": "Available for new opportunities",
     "greeting": "Hi, I'm Amirreza Mahmoudi",
     "title": "Front End Developer",
@@ -23,6 +28,19 @@
     "paragraph1": "I am a front-end developer with a passion for building beautiful, performant web applications. With expertise in modern JavaScript frameworks and a keen eye for design, I bridge the gap between aesthetics and functionality.",
     "paragraph2": "My approach combines technical excellence with user-centered design principles, ensuring every project not only looks great but delivers an exceptional user experience.",
     "paragraph3": "When I am not coding, you will find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community."
+  },
+  "Projects": {
+    "title":"Featured Projects",
+    "desc":"  A selection of my recent work showcasing my skills in front-end development and design",
+    "demo":"Live Demo",
+    "github":"GitHub"
+  },
+  "Contact": {
+    "title": "Let's Work Together",
+    "desc": "If you like what you see and want to work together on your next project, feel free to reach out. I am always open to discussing new opportunities and creative ideas.",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email"
   },
   "Skill": {
     "header": "What I Do",

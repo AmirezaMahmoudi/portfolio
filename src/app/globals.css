@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap");
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -192,4 +193,13 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+:lang(fa) {
+  --font-sans: "Vazirmatn", sans-serif;
+  --font-serif: "Vazirmatn", serif;
+  --font-mono: "Vazirmatn", monospace;
+}
+
+:lang(fa) * {
+  font-family: var(--font-sans);
 }

@@ -3,7 +3,7 @@ export const projects = [
     title: "AI Stock Market Dashboard",
     description:
       "A real-time dashboard built with TradingView widgets, Inngest, and Nodemailer, featuring authentication and AI insights that deliver daily market updates and personalized news.",
-    image: "/assets/images/modern-ecommerce-interface.png",
+    image: "/assets/images/stock.png",
     technologies: ["Next.js", "Inngest", "AI", "MongoDB"],
     github: "https://github.com/AmirezaMahmoudi/stock-sight",
     demo: "https://github.com/AmirezaMahmoudi/stock-sight",
@@ -12,7 +12,7 @@ export const projects = [
     title: "Web3 Crowdfunding Platform",
     description:
       "Built with Thirdweb and Solidity, allowing users to connect to their wallet , create and donate to blockchain-powered campaigns with secure smart contracts.",
-    image: "/task-management-dashboard.png",
+    image: "/assets/images/crowdfund.png",
     technologies: ["Thirdweb", "React"],
     github: "https://github.com/AmirezaMahmoudi/web3-crowdfund",
     demo: "https://web3-crowdfund-azure.vercel.app/",

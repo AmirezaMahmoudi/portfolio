@@ -3,9 +3,14 @@
     "about": "Über mich",
     "projects": "Projekte",
     "contact": "Kontakt",
+    "experince": "Erfahrung",
     "resume": "Lebenslauf "
   },
   "Hero": {
+    "hi":"Hallo, Ich bin",
+    "name":"Amirreza Mahmoudi",
+    "am":"هستم",
+
     "badge": "Verfügbar für neue Möglichkeiten",
     "greeting": "Hallo, ich bin Amirreza Mahmoudi",
     "title": "Frontend-Entwickler",
@@ -34,6 +39,19 @@
     "modernStackDescription": "Neueste Werkzeuge und Frameworks",
     "userFocusTitle": "Nutzerfokus",
     "userFocusDescription": "Intuitive, barrierefreie Schnittstellen"
+  },
+  "Projects": {
+    "title": "Ausgewählte Projekte",
+    "desc": "Eine Auswahl meiner aktuellen Arbeiten, die meine Fähigkeiten in der Frontend-Entwicklung und im Design zeigen",
+    "demo": "Live-Demo",
+    "github": "GitHub"
+  },
+  "Contact": {
+    "title": "Lass uns zusammenarbeiten",
+    "desc": "Wenn dir gefällt, was du siehst, und du an einer Zusammenarbeit für dein nächstes Projekt interessiert bist, kannst du dich jederzeit melden. Ich bin immer offen für neue Möglichkeiten und kreative Ideen.",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "E-Mail"
   },
   "Timeline": {
     "header": "Erfahrung",

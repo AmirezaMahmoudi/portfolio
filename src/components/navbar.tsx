@@ -69,6 +69,14 @@ export default function Navbar() {
             </Button>
             <Button
               variant="link"
+              onClick={() => scrollToSection("experince")}
+              className="nav-item text-white/75 hover:text-white transition-colors relative cursor-pointer"
+              aria-label="Navigate to about section"
+            >
+              {t("experince")}
+            </Button>
+            <Button
+              variant="link"
               onClick={() => scrollToSection("project")}
               className="nav-item text-white/75 hover:text-white transition-colors relative cursor-pointer"
               aria-label="Navigate to project section"

@@ -4,10 +4,10 @@ const Timeline = () => {
   const t = useTranslations("Timeline");
 
   return (
-    <div className="space-y-8">
-      <h3 className="text-2xl font-semibold text-center text-foreground">
+    <div className="py-20 md:py-32" id="experince">
+      <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground text-center mt-9">
         {t("header")}
-      </h3>
+      </h2>
       <div className="space-y-6 max-w-3xl mx-auto">
         <div className="flex gap-6 group">
           <div className="flex flex-col items-center">

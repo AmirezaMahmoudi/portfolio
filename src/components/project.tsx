@@ -2,20 +2,24 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { projects } from "@/constants";
 import { ExternalLink, Github } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export function Projects() {
+  const t = useTranslations("Projects");
+
   return (
     <section className="py-20 md:py-32 bg-background" id="project">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground text-balance">
-              Featured Projects
+            {t("title")}
+
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-              A selection of my recent work showcasing my skills in front-end
-              development and design
+            {t("desc")}
+
             </p>
           </div>
 
@@ -62,7 +66,8 @@ export function Projects() {
                         rel="noopener noreferrer"
                       >
                         <Github className="h-4 w-4" />
-                        GitHub
+                        {t("github")}
+
                       </a>
                     </Button>
                     <Button
@@ -76,7 +81,8 @@ export function Projects() {
                         rel="noopener noreferrer"
                       >
                         <ExternalLink className="h-4 w-4" />
-                        Live Demo
+                        {t("demo")}
+
                       </a>
                     </Button>
                   </div>
