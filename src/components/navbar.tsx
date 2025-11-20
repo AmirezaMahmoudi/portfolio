@@ -101,8 +101,8 @@ export default function Navbar() {
               className="flex items-center space-x-2"
             >
               <a
-                href="/amirrezamh.pdf"
-                download="amirrezamh.pdf"
+                href="/Amirreza Mahmoudi Frontend.pdf"
+                download="Amirreza Mahmoudi Frontend.pdf"
                 className="flex items-center space-x-2"
               >
                 <span className="text-sm font-medium">{t("resume")}</span>
@@ -166,8 +166,8 @@ export default function Navbar() {
                 role="menuitem"
               >
                 <a
-                  href="/amirrezamh.pdf"
-                  download="amirrezamh.pdf"
+                  href="/Amirreza Mahmoudi Frontend.pdf"
+                  download="Amirreza Mahmoudi Frontend.pdf"
                   className="flex items-center space-x-2 w-full justify-center"
                 >
                   <span>{t("resume")}</span>
