@@ -5,8 +5,8 @@ export const projects = [
       "A real-time dashboard built with TradingView widgets, Inngest, and Nodemailer, featuring authentication and AI insights that deliver daily market updates and personalized news.",
     image: "/assets/images/stock.png",
     technologies: ["Next.js", "Inngest", "AI", "MongoDB"],
-    github: "https://github.com/AmirezaMahmoudi/stock-sight",
-    demo: "https://github.com/AmirezaMahmoudi/stock-sight",
+    github: "https://github.com/AmirezaMahmoudi/signalist-stock-tracker",
+    demo: "https://signalist-stock-tracker-dusky.vercel.app/",
   },
   {
     title: "Web3 Crowdfunding Platform",
